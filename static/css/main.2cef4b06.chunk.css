@@ -1,0 +1,2 @@
+:root{--dark:#474747;--light:#bfbfbf}body{color:#bfbfbf;color:var(--light);background-color:#474747;background-color:var(--dark)}.dual-container{grid-template-columns:1fr 1fr;width:800px;margin:auto}.dual-container,.time-sets{display:grid;justify-items:center;align-items:center}.time-sets{grid-template-columns:50px 200px 50px}@media screen and (max-width:800px){.dual-container{display:flex;flex-direction:column;width:75%}}@media screen and (max-width:350px){.time-sets{display:flex;flex-direction:column}h1{font-size:30px}}
+/*# sourceMappingURL=main.2cef4b06.chunk.css.map */
