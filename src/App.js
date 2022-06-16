@@ -92,6 +92,7 @@ function App() {
     setBreakTime(5 * 60);
     setSessionTime(25 * 60);
     <audio id="beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
+    setBreakAudio();
   };
 
   return (
