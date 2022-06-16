@@ -7,7 +7,7 @@ function App() {
   const [sessionTime, setSessionTime] = React.useState(25 * 60);
   const [timerOn, setTimerOn] = React.useState(false);
   const [onBreak, setOnBreak] = React.useState(false);
-  const[breakAudio, setBreakAudio] = React.useState(
+  const[breakAudio] = React.useState(
     new Audio("https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav")
     );
 
@@ -91,8 +91,6 @@ function App() {
     setDisplayTime(25 * 60);
     setBreakTime(5 * 60);
     setSessionTime(25 * 60);
-    <audio id="beep" src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"></audio>
-    setBreakAudio();
   };
 
   return (

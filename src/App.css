@@ -13,3 +13,20 @@
     justify-items: center;
     align-items: center;
 }
+
+@media screen and (max-width: 800px){
+    .dual-container{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+    }
+}
+@media screen and (max-width: 350px){
+    .time-sets{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
